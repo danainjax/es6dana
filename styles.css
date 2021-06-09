@@ -1,0 +1,45 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+    background-color: goldenrod
+    ;
+    margin: 0;
+    padding: 0px;
+}
+.main-header {
+    background-color: rgba(105, 103, 103, 0.2);
+    background-image: url("images/exterior.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 200px;
+    color: honeydew;
+    font-size: x-large;
+    font-style: italic;
+
+    
+
+}
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding-top: 0px;
+}
+
+.nav li {
+    display: inline;
+    
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
